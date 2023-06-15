@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
+
+*{
+    font-family: 'Poppins', sans-serif;
+}
+a:link, a:visited{
+    text-decoration: none;
+    color: #1967d2;
+    cursor: context-menu;
+}
+.row{
+    display: flex;
+}
+.navbar{
+    width: 100%;
+    display: flex;
+    border-bottom: 1px solid lightgrey;
+    padding-top: 10px ;
+    padding-bottom: 10px;
+    gap: 15px;
+}
+.icon1{
+    color: rgb(151, 150, 150);
+    cursor: pointer;
+    font-size: 22px;
+    padding: 10px;
+    margin-top: -8px;
+    margin-left: 10px;
+}
+.icon1:hover{
+    background-color: rgb(223, 222, 222);
+    border-radius: 25px;    
+}
+.icon2{
+    color: rgb(151, 150, 150);
+    cursor: pointer;
+    font-size: 22px;
+    padding: 10px;
+    margin-top: -8px;
+}
+.icon2:hover{
+    background-color: rgb(223, 222, 222);
+    border-radius: 25px;    
+}
+.fInnerRow1{ 
+    display: flex; 
+    justify-content: center; 
+    gap: 20px; 
+    margin-left: 85.9%;
+}
+.userimg1{
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 5px;
+    margin-top: -5px;
+    cursor: pointer;
+}
+.secondRow{
+    margin-top: 20px;
+    width: 50%;
+    display: flex;
+    justify-content: start;
+    gap: 15px;
+    margin-left: 30%;
+}
+.icon3{
+    font-size: 20px;
+    color: white;
+    background-color: #568ddb;
+    border: 0px solid #568ddb;
+    padding: 10px;
+    padding-right: 12px;
+    padding-left: 12px;
+    border-radius: 100px;
+    margin-top: -20px;
+}
+.sRow1{
+    display: flex;
+    gap: 5px;
+}
+.icon4{
+    font-size: 4px;
+    color:rgb(175, 174, 174);
+}
+.sInnerRow1{
+    width: 75%;
+    display: flex;
+    gap: 52%;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #568ddb;
+}
+.icon5{
+    color: #568ddb;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-right: 15px;
+    padding-left: 15px;
+    cursor: pointer;
+}
+.icon5:hover{
+    background-color: #ebf4ff;
+    border-radius: 100px;  
+}
+.thirdRow{
+    width: 50%;
+    margin-left: 33%;
+    display: flex;
+    justify-content: start;
+    margin-top: 13px;
+}
+.tRow1{
+    width: 75%;
+    border-bottom: 1px solid rgb(192, 190, 190);
+    padding-bottom: 15px;
+}
+.tInnerRow1{
+    width: 50%;
+    display: flex;
+    justify-content: start;
+    gap: 20px;
+    border: 1px solid rgb(202, 200, 200);
+    border-radius: 10px;
+    cursor: pointer;
+}
+.rec{
+    margin-top: 15px; 
+    font-size: 15px; 
+    color:rgb(17, 17, 17); 
+    font-weight: 500;
+}
+.rec:hover{
+    color: #1967d2;
+}
+.fourthRow{
+    width: 50%;
+    margin-left: 33%;
+    display: flex;
+    justify-content: start;
+    margin-top: 15px;
+}
+.foInnerRow1{
+    display: flex;
+    gap: 10px;
+}
+.icon6{
+    color: rgb(94, 94, 94);
+    font-size: 17px;
+}
+.fifthRow{
+    width: 50%;
+    margin-left: 33%;
+    display: flex;
+    justify-content: start;
+    margin-top: 15px;
+    gap: 15px;
+}
+.userimg2{
+    border: 1px solid rgb(192, 190, 190);
+    border-radius: 20px;
+    padding: 5px;
+    cursor: pointer;
+    margin-left: -5px;
+}
+.fiInnerRow1{
+    width: 65%;
+    display: flex;
+    gap: 52%;
+    border: 1px solid rgb(192, 190, 190);
+    border-radius: 20px;
+    padding-left: 15px;
+    padding-right: 8px;
+    padding-top: 5px;
+    margin-bottom: 3px;
+
+}
+.inputBox{
+    border: none !important;
+    width: 210%;
+}
+.inputBox:focus{
+    outline: none;
+}
+.icon7{
+    margin-top: 5px;
+    color: rgb(102, 102, 102);
+}
+.sixthRow{
+    cursor: pointer;
+    width: 0.4%;
+    margin-top: 27.5%;
+    margin-left: 18px;
+    border: 2px solid rgb(102, 102, 102);
+    padding: 2px;
+    padding-right: 7px;
+    padding-left: 4px;
+    border-radius: 50px;
+}
+.icon8{
+    font-size: 13px;
+    color: rgb(102, 102, 102);
+}
+.sixthRow:hover{
+
+    background-color: rgb(218, 218, 218);
+}
